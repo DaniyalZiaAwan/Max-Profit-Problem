@@ -24,7 +24,7 @@ function maxProfit(time) {
     }
 
     // Return total earnings
-    return maxProfitCombination.earnings
+    return `Earnings: ${maxProfitCombination.earnings}, properties: ${maxProfitCombination.properties || 'Not Found'}`
 }
 
 // Example usage
